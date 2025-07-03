@@ -3,16 +3,16 @@ Troubleshooting Thread Synchronization with OS161 Operating System
 
 
 ## 실행 방법
-cd ~/os161/src/kern/compile/DUMBVM
-bmake depend
-bmake
-bmake install
-cd ~/os161/root
-sys161 kernel
-?
-?t
-sy1
-exit wit q
+cd ~/os161/src/kern/compile/DUMBVM   
+bmake depend   
+bmake   
+bmake install   
+cd ~/os161/root   
+sys161 kernel   
+?   
+?t  
+sy1   
+exit wit q   
 
 ## 출력 결과
 ![image](https://github.com/user-attachments/assets/88c186fc-27ae-4f9d-8c74-b5a842243df9)

@@ -1,6 +1,9 @@
 # OS161_Operating_System
 Troubleshooting Thread Synchronization with OS161 Operating System
 
+## Overview  
+Vehicles making straight, left-turn, and right-turn movements enter randomly from the four directions: north, south, east, and west. The intersection consists of four sections labeled NW, NE, SW, and SE. To prevent deadlock and starvation, the traffic flow is optimized by assigning semaphores to the four sections, granting specific priorities to vehicles entering from each direction to avoid deadlock and starvation. For left turns, which require passing through three sections, additional locks are used as a safeguard. As a result, vehicle deadlock and starvation are prevented.
+
 
 ## 실행 방법
 cd ~/os161/src/kern/compile/DUMBVM   
